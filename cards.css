@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+    gap: 10px;
+    padding: 10px 5px;
+    #cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+
+        #card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 2px whitesmoke solid;
+            gap:10px;
+            margin-bottom: 15px;
+            padding: 5px 5px;
+
+            img {
+                height: 280px;
+                width: 280px;
+            }
+
+            #title {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #descript {
+                    font-size: 15px;
+                    font-family: sans-serif;
+                    color: grey;
+                }
+
+                #price {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: end;
+                    gap: 10px;
+
+                    #numbers {
+                        font-size: 25px;
+                        font-weight: bold;
+                    }
+
+                    #onwards {
+                        font-size: 15px;
+                        color: rgb(160, 158, 158);
+                    }
+                }
+            }
+
+            #delivery {
+                border: 2px aliceblue;
+                border-radius: 5px;
+                background-color: aliceblue;
+                color: rgb(148, 146, 146);
+            }
+
+            #ratings {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: end;
+                gap: 5px;
+                #rating{
+                    border: 2px skyblue;
+                    border-radius: 10px;
+                    background-color: rgb(17, 111, 17);
+                    padding: 5px 15px;
+                    font-size: 17px;
+                    font-weight: bold;
+                    color: white;
+                    font-family: sans-serif;
+                }
+                #count{
+                    color: rgb(170, 167, 167);
+                    font-size: 15px;
+
+                }
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
